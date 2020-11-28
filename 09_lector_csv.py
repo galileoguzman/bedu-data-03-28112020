@@ -6,4 +6,5 @@ filename = 'employees.csv'
 with open(filename) as csv_file:
     csv_reader = csv.reader(csv_file)
     for row in csv_reader:
-        print(row)
+        #print(row)
+        print(row[2])
